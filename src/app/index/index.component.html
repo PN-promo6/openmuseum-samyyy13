@@ -6,6 +6,7 @@
     <div class="row">
       <app-single-museum class="col-4"
       *ngFor="let museum of museums"
+      [reference]="museum.reference"
       [name]="museum.name"
       [opening]="museum.opening"
       [zip]="museum.zip"
@@ -13,6 +14,8 @@
       [telephone]="museum.telephone"
       [adress]="museum.adress"
       [website]="museum.website"
+      [fax]="museum.fax"
+      [closing]="museum.closing"
        > </app-single-museum>
     </div>
   </div>

@@ -12,7 +12,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 const appRoutes:Routes = [
   { path: 'add', component: AddMuseumComponent },
-  { path: 'museumDetail', component: MuseumDetailComponent },
+
+  { path: 'museum/:reference', component: MuseumDetailComponent },
+
   { path: '', component: IndexComponent },
   {path: "**", component: NotFoundComponent}
 ]

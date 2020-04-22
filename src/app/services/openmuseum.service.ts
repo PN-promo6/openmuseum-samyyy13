@@ -1,5 +1,5 @@
 export class MuseumService{
-  museums = [{
+  museums: any = [{
     opening: "Ouvert du 16 septembre au 14 juin de 10h à 12h et de 14h à 18h, du  15 juin au 15 septembre de 10h à 18h. Nocturnes en juillet et aout le mercredi et le vendredi jusqu'à 20h",
     name: "Musée Picasso",
     region: "PROVENCE-ALPES-COTE D'AZUR",
