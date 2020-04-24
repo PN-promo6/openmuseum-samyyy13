@@ -28,6 +28,7 @@ export class SingleMuseumComponent implements OnInit {
    }
 
   ngOnInit() {
+    // il faut mettre ça dans le details
 // const reference = this.route.snapshot.params['reference'];
 // this.name = this.museumService.getMuseumById('reference').name;
 // this.opening = this.museumService.getMuseumById('opening').opening;
